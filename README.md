@@ -26,15 +26,15 @@ Execute the program using runserver command.
 ## PROGRAM
 ```
 slot.html
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <head>
     <title>Slot Time Table - YOUR NAME</title>
 </head>
 <body>
-    <IMG SRC="logo1.jpg"HEIGHT="150"WIDTH="500"BORDER=6>
+    <IMG SRC="logo.png"HEIGHT="150"WIDTH="500"BORDER=6>
     <h2>Saveetha Engineering College</h2>
-    <h3>SLOT TIME TABLE - YOUR-NAME</h3>
+    <h3>SLOT TIME TABLE -Jaya Surya R(25017693) </h3>
 
     <table border="1">
         <tr BGCOLOR="YELLOW">
@@ -47,19 +47,19 @@ slot.html
         </tr>
         <tr BGCOLOR="CYAN">
             <td BGCOLOR="YELLOW">8-10</td>
-            <td></td>
+            <td>DS</td>
+            <td>DS</td>
+            <td>DS</td>
             <td>FREE SLOT</td>
             <td></td>
-            <td>PHY</td>
-            <td>CHE</td>
         </tr>
         <tr BGCOLOR="CYAN">
             <td BGCOLOR="YELLOW">10-12</td>
-            <td></td>
-            <td>FWAD</td>
-            <td></td>
-            <td>PHY</td>
-            <td>CHE</td>
+            <td>WEB</td>
+            <td>PP</td>
+            <td>WEB</td>
+            <td>DS</td>
+            <td>WEB</td>
         </tr>
         </tr>
         <tr BGCOLOR="CYAN">
@@ -69,18 +69,18 @@ slot.html
         <tr BGCOLOR="CYAN">
             <td BGCOLOR="YELLOW">1-3</td>
             <td>FREE SLOT</td>
-            <td>MAT</td>
-            <td>MAT</td>
-            <td>SS</td>
+            <td>PP</td>
+            <td>MM</td>
+            <td>FREE SLOT</td>
             <td></td>
         </tr>
         <tr BGCOLOR="CYAN">
             <td BGCOLOR="YELLOW">3-5</td>
             <td>FREE SLOT</td>
-            <td>GER</td>
-            <td>CHE</td>
-            <td>FWAD</td>
             <td></td>
+            <td>PP</td>
+            <td>WEB</td>
+            <td>DS</td>
         </tr>
     </table>
 
@@ -94,32 +94,17 @@ slot.html
         <tr>
             <td>1.</td>
             <td>19AI414</td>
-            <td>Fundamentals of Web Application Development (FWAD)</td>
+            <td>Fundamentals of Web Application Development (WEB)</td>
         </tr>
         <tr>
             <td>2.</td>
-            <td>19EN612</td>
-            <td>German Basic (GER)</td>
+            <td>19AI404</td>
+            <td>Introduction to Data Science (DS)</td>
         </tr>
         <tr>
             <td>3.</td>
-            <td>19PH206</td>
-            <td>Physics for Information Technology (PHY)</td>
-        </tr>
-        <tr>
-            <td>4.</td>
-            <td>19CY205</td>
-            <td>Principles of Chemistry in Engineering (CHE)</td>
-        </tr>
-        <tr>
-            <td>5.</td>
-            <td>19MA201</td>
-            <td>Calculus and Matrix Algebra (MAT)</td>
-        </tr>
-        <tr>
-            <td>6.</td>
-            <td>19EY701</td>
-            <td>Soft Skills (SS)</td>
+            <td>19AI301</td>
+            <td>Python Programming (PP)</td>
         </tr>
     </table>
 </body>
